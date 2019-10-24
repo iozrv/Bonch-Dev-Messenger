@@ -1,4 +1,6 @@
 package bonch.dev.school.bonchdevmessenger.ui.fragments
 
-class ProfileFragment {
+import androidx.fragment.app.Fragment
+
+class ProfileFragment:Fragment() {
 }
