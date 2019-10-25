@@ -8,7 +8,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import bonch.dev.school.bonchdevmessenger.R
 import bonch.dev.school.bonchdevmessenger.ui.activities.MainAppActivity
-import kotlinx.android.synthetic.*
+
 
 private lateinit var sendButton: Button
 class ChatFragment: Fragment() {

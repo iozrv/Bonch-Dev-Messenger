@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#111810"
     tools:context=".ui.activities.SignUpActivity">
 
     <TextView
@@ -16,13 +17,13 @@
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/helvetica"
         android:text="Регистрация"
-        android:textSize="40sp"
+        android:textColor="#F5F5F5"
+        android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/login_et"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.696" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/login_et"
@@ -30,6 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:ems="10"
+        android:textColor="#F5F5F5"
+        android:textColorHint="#F5F5F5"
         android:hint="Логин"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/email_sign_up_et"
@@ -44,6 +47,8 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:ems="10"
+        android:textColor="#F5F5F5"
+        android:textColorHint="#F5F5F5"
         android:hint="Пароль"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/password_confirm_et"
@@ -59,9 +64,13 @@
         android:fontFamily="sans-serif"
         android:hint="Подтвердите пароль"
         android:inputType="textEmailAddress"
+        android:textColor="#F5F5F5"
+        android:textColorHint="#F5F5F5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.987" />
 
     <EditText
         android:id="@+id/email_sign_up_et"
@@ -71,6 +80,8 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:ems="10"
+        android:textColorHint="#F5F5F5"
+        android:textColor="#F5F5F5"
         android:hint="Почта"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/password_sign_up_et"
@@ -79,12 +90,14 @@
 
     <Button
         android:id="@+id/complete_sign_up_button"
+        android:background="#325729"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="48dp"
+        android:textColor="#F5F5F5"
         android:text="Зарегистрироваться"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

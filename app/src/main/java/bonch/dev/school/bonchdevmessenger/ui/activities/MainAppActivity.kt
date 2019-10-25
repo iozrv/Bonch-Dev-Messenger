@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import bonch.dev.school.bonchdevmessenger.R
 import bonch.dev.school.bonchdevmessenger.ui.fragments.ChatFragment
+import bonch.dev.school.bonchdevmessenger.ui.fragments.PasswordFragment
 import bonch.dev.school.bonchdevmessenger.ui.fragments.ProfileFragment
 import kotlinx.android.synthetic.main.activity_main_app.*
 
@@ -26,4 +27,9 @@ class MainAppActivity : AppCompatActivity() {
             .addToBackStack("fragment_chat")
             .commit()
     }
+    fun showChangePassFragment(){
+        val fragment = PasswordFragment()
+        fragment.show(fm, "PasswordFragment")
+    }
+
 }
