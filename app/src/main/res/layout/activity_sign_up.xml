@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#111810"
+    android:layout_gravity="center"
     tools:context=".ui.activities.SignUpActivity">
 
     <TextView
@@ -91,7 +92,7 @@
     <Button
         android:id="@+id/complete_sign_up_button"
         android:background="#325729"
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"

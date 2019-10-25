@@ -5,7 +5,9 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="#111810"
-    tools:context=".ui.fragments.ProfileFragment">
+    tools:context=".ui.fragments.ProfileFragment"
+    android:layout_gravity="center"
+    >
 
     <ImageView
         android:id="@+id/avatar_image_view"
